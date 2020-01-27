@@ -17,4 +17,12 @@ namespace P1
 
         }
     }
+
+    public class PokedexMissingEntryException : Exception
+    {
+        public PokedexMissingEntryException()
+        {
+
+        }
+    }
 }

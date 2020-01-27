@@ -44,7 +44,6 @@ namespace P1_UnitTest
             Assert.IsTrue(rhydon == kanto.getPokemonByNumber(112));
         }
 
-        
         [TestMethod, TestCategory("Pokedex")]
         public void CheckWeaknessesAndResistances()
         {
@@ -52,6 +51,15 @@ namespace P1_UnitTest
             Assert.AreEqual(4.0, P1.Pokedex.getWeaknessVal(rhydon, P1.Pokemon.Type.Grass), "Incorrect Value: Rhydon is 4x times weak to grass");
         }
 
-       
+        [TestMethod, TestCategory("Pokedex")]
+        public void CheckGetPokemonByName()
+        {
+            P1.Pokedex kanto = new P1.Pokedex(@"D:\Users\arobi\Desktop\pokemondatabase.txt");
+            P1.Pokemon rhydon = new P1.Pokemon("Rhydon", P1.Pokemon.Type.Ground, P1.Pokemon.Type.Rock);
+
+            Assert.IsTrue(kanto.getPokemonByName("Rhydon") == rhydon);
+        }
+
+
     }
 }

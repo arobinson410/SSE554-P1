@@ -53,6 +53,19 @@ namespace P1
             return dex[n-1];
         }
 
+        public Pokemon getPokemonByName(string s)
+        {
+            for(int i = 0; i < dex.Count; i++)
+            {
+                if (dex[i].Name.Equals(s))
+                {
+                    return dex[i];
+                }
+            }
+
+            throw new PokedexMissingEntryException();
+        }
+
         public List<Pokemon> Dex
         {
             get

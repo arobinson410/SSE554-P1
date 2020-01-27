@@ -19,6 +19,7 @@ namespace P1
             {
                 printMainMenu();
                 getInput();
+                Console.Clear();
             }
         }
 
@@ -41,6 +42,7 @@ namespace P1
                     searchByNumber();
                     break;
                 case "2":
+                    searchByName();
                     break;
                 case "3":
                     go = false;
@@ -81,6 +83,30 @@ namespace P1
             }
             
 
+        }
+
+        private static void searchByName()
+        {
+            Console.Clear();
+            Console.WriteLine("Enter the name of your desired Pokemon:");
+            string toSearch;
+            try
+            {
+                toSearch = Console.ReadLine();
+
+
+                Console.Write(kanto.getPokemonByName(toSearch));
+            }
+            catch(PokedexMissingEntryException)
+            {
+                Console.Clear();
+                Console.WriteLine("That name is not in the Pokedex");
+            }
+            finally
+            {
+                Console.WriteLine("Press Enter to Continue");
+                Console.Read();
+            }
         }
     }
 }
