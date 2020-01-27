@@ -36,5 +36,13 @@ namespace P1_UnitTest
             P1.Pokemon pokemon2 = new P1.Pokemon("Rhydon", P1.Pokemon.Type.Ground, P1.Pokemon.Type.Rock);
             Assert.IsTrue(pokemon1 == pokemon2);
         }
+
+        [TestMethod]
+        public void CheckGetPokemonByNumber()
+        {
+            P1.Pokedex kanto = new P1.Pokedex(@"D:\Users\arobi\Desktop\pokemondatabase.txt");
+            P1.Pokemon rhydon = new P1.Pokemon("Rhydon", P1.Pokemon.Type.Ground, P1.Pokemon.Type.Rock);
+            Assert.IsTrue(rhydon == kanto.getPokemonByNumber(112));
+        }
     }
 }
