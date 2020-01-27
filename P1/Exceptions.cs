@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace P1
 {
+    /// <summary>
+    /// Exception to handle invalid Pokemon types
+    /// </summary>
     public class PokemonTypeNotRecognizedException : Exception
     {
         public PokemonTypeNotRecognizedException()
@@ -17,7 +20,9 @@ namespace P1
 
         }
     }
-
+    /// <summary>
+    /// Exception to handle missing entries in the Pokedex
+    /// </summary>
     public class PokedexMissingEntryException : Exception
     {
         public PokedexMissingEntryException()

@@ -14,6 +14,13 @@ namespace P1
             types
         };
 
+        /// <summary>
+        /// Prepares a list of Pokemon from the file provided.
+        /// Each line of the text file should be formatted: "{NAME}:{TYPE1},{TYPE2};"
+        /// </summary>
+        /// <param name="filename">File path that contains information to populate the Pokedex with.</param>
+        /// <returns> A List of Pokemon where each entry is populated with a line from the text file.</returns>
+        /// <exception cref="P1.PokemonTypeNotRecognizedException"></exception>
         public static List<Pokemon> getPokemonFromFile(string filename)
         {
             List<Pokemon> toReturn = new List<Pokemon>();
@@ -38,6 +45,5 @@ namespace P1
 
             return toReturn;
         }
-
     }
 }

@@ -44,7 +44,7 @@ namespace P1_UnitTest
             Assert.IsTrue(rhydon == kanto.getPokemonByNumber(112));
         }
 
-        [TestMethod, TestCategory("Pokedex")]
+        [TestMethod, TestCategory("Pokedex"), TestProperty("Test", "1")]
         public void CheckWeaknessesAndResistances()
         {
             P1.Pokemon rhydon = new P1.Pokemon("Rhydon", P1.Pokemon.Type.Ground, P1.Pokemon.Type.Rock);
