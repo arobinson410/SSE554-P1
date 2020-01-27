@@ -8,9 +8,10 @@ namespace P1
 {
     public static class FileReader
     {
-        public static string[] getPokemonFromFile(string filename)
+        public static Pokemon[] getPokemonFromFile(string filename)
         {
-            return 
+            string[] lines = System.IO.File.ReadAllLines(filename);
+            return new Pokemon[1];
         }
 
     }

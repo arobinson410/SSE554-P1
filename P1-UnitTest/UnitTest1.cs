@@ -7,8 +7,10 @@ namespace P1_UnitTest
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void checkPokemonCreation()
         {
+            P1.Pokemon pokemon = new P1.Pokemon("Rhydon", P1.Pokemon.Type.Ground, P1.Pokemon.Type.Rock);
+            Assert.IsTrue(pokemon.Name.Equals("Rhydon") && pokemon.PrimaryType.Equals(P1.Pokemon.Type.Ground) && pokemon.SecondaryType.Equals(P1.Pokemon.Type.Rock));
         }
     }
 }
