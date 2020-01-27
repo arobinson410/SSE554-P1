@@ -8,6 +8,13 @@ namespace P1
 {
     public class Pokedex
     {
+        private List<Pokemon> dex;
+
+        public Pokedex(string filename)
+        {
+            dex = FileReader.getPokemonFromFile(filename);
+        }
+
         private static protected double[][] weaknessesAndResistances = new double[][]
         {
             new double[]{1,1,1,1,1,.5,1,0,.5,1,1,1,1,1,1,1,1,1}, //Normal
@@ -32,7 +39,23 @@ namespace P1
 
         public static double getWeaknessVal(Pokemon p, Pokemon.Type damageType)
         {
-            return -1;
+            double toReturn = 1;
+            toReturn *= weaknessesAndResistances[(int)damageType][(int)p.PrimaryType];
+
+            if(p.SecondaryType != Pokemon.Type.None)
+                toReturn *= weaknessesAndResistances[(int)damageType][(int)p.SecondaryType];
+
+            return toReturn;
         }
+
+
+        public List<Pokemon> Dex
+        {
+            get
+            {
+                return dex;
+            }
+        }
+
     }
 }
