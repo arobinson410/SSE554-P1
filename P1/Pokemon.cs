@@ -81,22 +81,18 @@ namespace P1
 
         public static bool operator ==(Pokemon a, Pokemon b)
         {
-            if (a.Name.Equals(b.Name) && a.PrimaryType == b.PrimaryType && a.SecondaryType == b.SecondaryType)
+            if (a.Name.Equals(b.Name) && ((a.PrimaryType == b.PrimaryType && a.SecondaryType == b.SecondaryType) || (a.PrimaryType == b.SecondaryType && a.SecondaryType == b.PrimaryType)))
                 return true;
             else
-            {
                 return false;
-            }
         }
 
         public static bool operator !=(Pokemon a, Pokemon b)
         {
-            if (a.Name.Equals(b.Name) && a.PrimaryType == b.PrimaryType && a.SecondaryType == b.SecondaryType)
+            if (a.Name.Equals(b.Name) && ((a.PrimaryType == b.PrimaryType && a.SecondaryType == b.SecondaryType) || (a.PrimaryType == b.SecondaryType && a.SecondaryType == b.PrimaryType)))
                 return false;
             else
-            {
                 return true;
-            }
         }
     }
 }

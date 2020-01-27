@@ -50,7 +50,7 @@ namespace P1
 
         public Pokemon getPokemonByNumber(int n)
         {
-            return new Pokemon("??", Pokemon.Type.None);
+            return dex[n-1];
         }
 
         public List<Pokemon> Dex
