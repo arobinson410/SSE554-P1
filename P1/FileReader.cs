@@ -30,7 +30,7 @@ namespace P1
                 {
                     toReturn.Add(new Pokemon(attribs[(int)Attributes.name], (Pokemon.Type)Enum.Parse(typeof(Pokemon.Type), types[0]), (Pokemon.Type)Enum.Parse(typeof(Pokemon.Type), types[1])));
                 }
-                catch (ArgumentException e)
+                catch (ArgumentException)
                 {
                     throw new PokemonTypeNotRecognizedException();
                 }

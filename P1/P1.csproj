@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Exceptions.cs" />
     <Compile Include="FileReader.cs" />
+    <Compile Include="Pokedex.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

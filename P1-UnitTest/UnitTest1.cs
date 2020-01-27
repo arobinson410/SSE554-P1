@@ -21,5 +21,12 @@ namespace P1_UnitTest
             pokemonList.AddRange(P1.FileReader.getPokemonFromFile(@"D:\Users\arobi\Desktop\pokemondatabase.txt"));
             Assert.AreEqual(pokemonList.Count, 151, "Pokemon list not of expected size");
         }
+
+        [TestMethod]
+        public void CheckWeaknessesAndResistances()
+        {
+            P1.Pokemon rhydon = new P1.Pokemon("Rhydon", P1.Pokemon.Type.Ground, P1.Pokemon.Type.Rock);
+            Assert.AreEqual(4.0, P1.Pokedex.getWeaknessVal(rhydon, P1.Pokemon.Type.Grass), "Incorrect Value: Rhydon is 4x times weak to grass");
+        }
     }
 }
