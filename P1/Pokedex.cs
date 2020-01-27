@@ -48,6 +48,10 @@ namespace P1
             return toReturn;
         }
 
+        public Pokemon getPokemonByNumber(int n)
+        {
+            return new Pokemon("??", Pokemon.Type.None);
+        }
 
         public List<Pokemon> Dex
         {

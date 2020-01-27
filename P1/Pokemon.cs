@@ -35,7 +35,7 @@ namespace P1
         private Type primaryType;
         private Type secondaryType;
 
-        public Pokemon(string name, Type primaryType, Type secondaryType)
+        public Pokemon(string name, Type primaryType, Type secondaryType = Type.None)
         {
             this.name = name;
             this.primaryType = primaryType;
@@ -78,5 +78,7 @@ namespace P1
                 secondaryType = value;
             }
         }
+
+
     }
 }
