@@ -94,5 +94,20 @@ namespace P1
             else
                 return true;
         }
+
+        public override string ToString()
+        {
+            string toReturn = "Pokemon: " + Name + "\n";
+            if (primaryType == Type.None || secondaryType == Type.None)
+            {
+                toReturn += "Type: " + primaryType.ToString() + "\n";
+            }
+            else
+            {
+                toReturn += "Types: " + primaryType.ToString() + "-" + secondaryType.ToString() + "\n";
+            }
+
+            return toReturn;
+        }
     }
 }
