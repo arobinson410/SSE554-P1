@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace P1
 {
+    /// <summary>
+    /// Container class for the list of pokemon. This class also holds supporting search methods along with methods that calculate weaknesses and resistances to moves.
+    /// </summary>
     public class Pokedex
     {
         private List<Pokemon> dex;
@@ -20,6 +23,8 @@ namespace P1
         /// <summary>
         /// Weaknesses and resistances are defined by the game, this table makes referencing them much easier
         /// </summary>
+        /// <example>If you wanted to see the damage modifier for a Fire type move attacking a Grass type, it is as follows:
+        /// weaknessesAndResistances[Pokemon.Type.Fire][Pokemon.Type.Grass] => 2</example>
         private static protected double[][] weaknessesAndResistances = new double[][]
         {
             new double[]{1,1,1,1,1,.5,1,0,.5,1,1,1,1,1,1,1,1,1}, //Normal
@@ -71,7 +76,7 @@ namespace P1
         /// </summary>
         /// <param name="s">Name of the Pokemon</param>
         /// <returns>Pokemon object matching the provided name</returns>
-        /// <exception cref="P1.PokedexMissingEntryException"/>
+        /// <exception cref="P1.PokedexMissingEntryException">Occurs when an entry that referenced is not in the curret Pokedex</exception>
         public Pokemon getPokemonByName(string s)
         {
             for(int i = 0; i < dex.Count; i++)

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="P1" Title="P1 Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.Dex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_000000000000000E.html" LinkGroup="P1">Dex Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Equality" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000028.html" LinkGroup="P1">Equality Operator</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.FileReader" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000006.html" LinkGroup="P1">FileReader Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Inequality" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000029.html" LinkGroup="P1">Inequality Operator</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Name" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000025.html" LinkGroup="P1">Name Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000000.html" LinkGroup="P1">P1 Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1 Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_000000000000002B.html" LinkGroup="P1">P1 Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000008.html" LinkGroup="P1">Pokedex Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.Pokedex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000009.html" LinkGroup="P1">Pokedex Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokedexMissingEntryException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000004.html" LinkGroup="P1">PokedexMissingEntryException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokedexMissingEntryException.PokedexMissingEntryException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000005.html" LinkGroup="P1">PokedexMissingEntryException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_000000000000000F.html" LinkGroup="P1">Pokemon Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Pokemon" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000024.html" LinkGroup="P1">Pokemon Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokemonTypeNotRecognizedException.PokemonTypeNotRecognizedException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000002_overloads--.html" LinkGroup="P1">PokemonTypeNotRecognizedException Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokemonTypeNotRecognizedException.PokemonTypeNotRecognizedException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000003_overloads--.html" LinkGroup="P1">PokemonTypeNotRecognizedException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokemonTypeNotRecognizedException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000001.html" LinkGroup="P1">PokemonTypeNotRecognizedException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.PrimaryType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000026.html" LinkGroup="P1">PrimaryType Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.SecondaryType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000027.html" LinkGroup="P1">SecondaryType Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.ToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_000000000000002A.html" LinkGroup="P1">ToString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Type" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000010.html" LinkGroup="P1">Type Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.getPokemonByName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_000000000000000D.html" LinkGroup="P1">getPokemonByName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.getPokemonByNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_000000000000000C.html" LinkGroup="P1">getPokemonByNumber Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.FileReader.getPokemonFromFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_0000000000000007.html" LinkGroup="P1">getPokemonFromFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.getWeaknessVal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_000000000000000B.html" LinkGroup="P1">getWeaknessVal Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.weaknessesAndResistances" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:P1.chm::/topic_000000000000000A.html" LinkGroup="P1">weaknessesAndResistances Field</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

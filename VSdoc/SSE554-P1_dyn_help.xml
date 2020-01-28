@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="SSE554-P1" Title="SOLUTION-WIDE PROPERTIES Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest.UnitTest1.CheckGetPokemonByName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000033.html" LinkGroup="SSE554-P1">CheckGetPokemonByName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest.UnitTest1.CheckGetPokemonByNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000031.html" LinkGroup="SSE554-P1">CheckGetPokemonByNumber Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest.UnitTest1.CheckImport" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000002D.html" LinkGroup="SSE554-P1">CheckImport Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest.UnitTest1.CheckIsEqual" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000002F.html" LinkGroup="SSE554-P1">CheckIsEqual Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest.UnitTest1.CheckPokemonCreation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000002E.html" LinkGroup="SSE554-P1">CheckPokemonCreation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest.UnitTest1.CheckPokemonToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000030.html" LinkGroup="SSE554-P1">CheckPokemonToString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest.UnitTest1.CheckWeaknessesAndResistances" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000032.html" LinkGroup="SSE554-P1">CheckWeaknessesAndResistances Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.Dex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000000E.html" LinkGroup="SSE554-P1">Dex Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Equality" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000028.html" LinkGroup="SSE554-P1">Equality Operator</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.FileReader" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000006.html" LinkGroup="SSE554-P1">FileReader Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Inequality" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000029.html" LinkGroup="SSE554-P1">Inequality Operator</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Name" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000025.html" LinkGroup="SSE554-P1">Name Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000000.html" LinkGroup="SSE554-P1">P1 Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000002B.html" LinkGroup="SSE554-P1">P1_UnitTest Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000008.html" LinkGroup="SSE554-P1">Pokedex Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.Pokedex" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000009.html" LinkGroup="SSE554-P1">Pokedex Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokedexMissingEntryException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000004.html" LinkGroup="SSE554-P1">PokedexMissingEntryException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokedexMissingEntryException.PokedexMissingEntryException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000005.html" LinkGroup="SSE554-P1">PokedexMissingEntryException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000000F.html" LinkGroup="SSE554-P1">Pokemon Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Pokemon" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000024.html" LinkGroup="SSE554-P1">Pokemon Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokemonTypeNotRecognizedException.PokemonTypeNotRecognizedException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000002_overloads--.html" LinkGroup="SSE554-P1">PokemonTypeNotRecognizedException Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokemonTypeNotRecognizedException.PokemonTypeNotRecognizedException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000003_overloads--.html" LinkGroup="SSE554-P1">PokemonTypeNotRecognizedException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.PokemonTypeNotRecognizedException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000001.html" LinkGroup="SSE554-P1">PokemonTypeNotRecognizedException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.PrimaryType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000026.html" LinkGroup="SSE554-P1">PrimaryType Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SOLUTION-WIDE PROPERTIES Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000034.html" LinkGroup="SSE554-P1">SOLUTION-WIDE PROPERTIES Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.SecondaryType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000027.html" LinkGroup="SSE554-P1">SecondaryType Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.ToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000002A.html" LinkGroup="SSE554-P1">ToString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokemon.Type" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000010.html" LinkGroup="SSE554-P1">Type Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1_UnitTest.UnitTest1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000002C.html" LinkGroup="SSE554-P1">UnitTest1 Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.getPokemonByName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000000D.html" LinkGroup="SSE554-P1">getPokemonByName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.getPokemonByNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000000C.html" LinkGroup="SSE554-P1">getPokemonByNumber Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.FileReader.getPokemonFromFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_0000000000000007.html" LinkGroup="SSE554-P1">getPokemonFromFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.getWeaknessVal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000000B.html" LinkGroup="SSE554-P1">getWeaknessVal Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="P1.Pokedex.weaknessesAndResistances" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SSE554-P1.chm::/topic_000000000000000A.html" LinkGroup="SSE554-P1">weaknessesAndResistances Field</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

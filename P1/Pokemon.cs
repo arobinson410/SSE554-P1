@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace P1
 {
+    /// <summary>
+    /// The base Pokemon class that defines each entry. This class holds an enum for the Pokemon class, variables to hold the Pokemon name and types, and some overriden methods to make comparisons easier.
+    /// </summary>
     public class Pokemon
     {
         /// <summary>
